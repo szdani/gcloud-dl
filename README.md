@@ -59,7 +59,7 @@ Now we need to define the properties of our instance:
 * Under **Machine Type** click to "Costumize" (this will open a detailed view for this)
 * On the detailed view, click on "GPUs" (on the bottom), then you can set the desired number of GPUs, and GPU type.
 
-(machine creation image)[https://github.com/szdani/gcloud-dl/blob/master/image.png]
+[machine creation image](https://github.com/szdani/gcloud-dl/blob/master/image.png)
 
 * For Boot disk I recommend to use Ubuntu LTS (16.04), especially if you are not familiar with linux
 * If you want to use it via SSH, don't forget to add a key under SSH Keys option
