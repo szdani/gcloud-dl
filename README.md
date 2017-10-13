@@ -59,7 +59,7 @@ Now we need to define the properties of our instance:
 * Under **Machine Type** click to "Costumize" (this will open a detailed view for this)
 * On the detailed view, click on "GPUs" (on the bottom), then you can set the desired number of GPUs, and GPU type.
 
-[machine creation image](https://github.com/szdani/gcloud-dl/blob/master/image.png)
+ <img src="https://github.com/szdani/gcloud-dl/blob/master/image.png" alt="W3Schools.com"> 
 
 * For Boot disk I recommend to use Ubuntu LTS (16.04), especially if you are not familiar with linux
 * If you want to use it via SSH, don't forget to add a key under SSH Keys option
@@ -75,5 +75,29 @@ If the instance is created, and running, you can connect to it via SSH, or with 
 `gcloud compute ssh [INSTANCE NAME]` : Connect to an instance via SSH. 
 
 ## Datalab
-WIP - https://cloud.google.com/datalab/docs/quickstarts
 
+Datalab is an environment where you can run and test Python Notebooks easily. Original documentation can be found [here](https://cloud.google.com/datalab/docs/quickstarts).
+
+# Create Datalab
+Let's use GCloud CLI for this. Open a terminal and list all the installed components with </br>
+```bash
+gcloud components list
+```
+If the `Cloud Datalab Command Line Tool` isn't installed, install it with</br>
+```Bash
+gcloud components install datalab
+# or with
+sudo apt-get install google-cloud-sdk-datalab
+```
+If it's installed, create an actual datalab environment with the following command:
+```Bash
+datalab create [VM-INSTANCE-NAME]
+# For example
+datalab create
+```
+This will create a new VM instance with the given name. You can check the deployment state on Google Cloud Console on web, or with CLI. If the deployement is done, you can reach your environment on localhost:8081. If the terminal command window used for running the datalab command is closed or interrupted, the connection to your Cloud Datalab VM will terminate, and you will need to run `datalab connect [vm-instance-name]` to reestablish the connection to your VM.
+
+You can delete the VM with the follwoing command:
+```Bash
+datalab delete [vm-instance-name]
+```
