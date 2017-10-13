@@ -101,3 +101,12 @@ You can delete the VM with the follwoing command:
 ```Bash
 datalab delete [vm-instance-name]
 ```
+
+So we have an amazing webserver, where we can test our code, but what if we need additional packages? For exaample Keras?
+
+Just like in a simple environment, we can use our notebook to install python packages:
+```Python
+!pip3 install keras
+```
+
+[Keras Install Image](https://github.com/szdani/gcloud-dl/blob/master/datalab.png?raw=true)
