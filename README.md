@@ -9,7 +9,8 @@ Table of content:
 3. Google Cloud Compute - Virtual Machines
     1. How to start an instance
     2. Useful commands 
-4. Datalab (WIP)
+4. Datalab
+    1. Create Datalab
 
 **WARNING: The registration, and the usage of the services is free for a limited amount of duration, and resource, BUT only for this duration.** 
 ### How to register
@@ -80,7 +81,7 @@ If the instance is created, and running, you can connect to it via SSH, or with 
 
 Datalab is an environment where you can run and test Python Notebooks easily. Original documentation can be found [here](https://cloud.google.com/datalab/docs/quickstarts).
 
-# Create Datalab
+### Create Datalab
 Let's use GCloud CLI for this. Open a terminal and list all the installed components with </br>
 ```bash
 gcloud components list
