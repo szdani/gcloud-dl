@@ -1,5 +1,7 @@
 # Google Cloud for Deep Learning
-This small tutorial is a little help for students, who are participating in "DEEP LEARNING A GYAKORLATBAN PYTHON ÉS LUA ALAPON" at Budapest University of Technology and Economics. 
+This small tutorial is a little help for students, who are participating in "DEEP LEARNING A GYAKORLATBAN PYTHON ÉS LUA ALAPON" at Budapest University of Technology and Economics.
+
+If you have any question, please feel free to contact me! All suggestions are welcome!
 ## GCP Free Tier
 Table of content:
 1. How to register
