@@ -48,6 +48,14 @@ After successful login choose between projects (or creat a new one with the CLI)
 ## Google Cloud Compute - Virtual Machines
 So google cloud instance is just a virtual machine (just like in AWS), but you have much more freedom to scale it. For Deep Learning it's a necessary to use GPU (it's event more important with bigger models, and with more data), therefore we will see how can we setup an instance with GPU. **WARNING: I want to repeat myself, that this is not free (however you have free credits).**
 
+### GPU Quota
+If we want a GPU instance, we need to request it first, because it's a limited resource, and the initial quota for GPU's is zero.
+
+* Go to `iam-admin/quotas` on Google Cloud Console
+* Under Quotas search for (Google Compute Engine API) Metric: NVIDIA K80 GPUs
+* Click on the desired region, and click to `EDIT QUOTAS`
+* On the right, fill out the request form, then submit request.
+
 ### How to start an instance
 Because GUI is much more interactive, I will show this process with web-GUI on Google Cloud Management Console:
 * Go to [Google Cloud Management Console](https://console.cloud.google.com/home)
