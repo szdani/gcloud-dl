@@ -2,6 +2,11 @@
 This small tutorial is a little help for students, who are participating in "DEEP LEARNING A GYAKORLATBAN PYTHON ÉS LUA ALAPON" at Budapest University of Technology and Economics.
 
 If you have any questions, please feel free to contact me! All suggestions are welcome!
+
+## UPDATE
+If a ~2GB GPU is enough for you I would like to recommend https://colab.research.google.com/ and skip this document.
+It's easier to setup and use than the workflow listed below.
+
 ## GCP Free Tier
 Table of content:
 1. How to register
