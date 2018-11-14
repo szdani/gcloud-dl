@@ -4,8 +4,8 @@ This small tutorial is a little help for students, who are participating in "DEE
 If you have any questions, please feel free to contact me! All suggestions are welcome!
 
 ## UPDATE
-If a ~2GB GPU is enough for you I would like to recommend https://colab.research.google.com/ and skip this document.
-It's easier to setup and use than the workflow listed below.
+**If a ~2GB GPU is enough for you I would like to recommend https://colab.research.google.com/ and skip this document.
+It's easier to setup and use than the workflow listed below.**
 
 ## GCP Free Tier
 Table of content:
@@ -24,8 +24,13 @@ Register with your Google account [here.](https://cloud.google.com/free/)
 - For 'company' just use 'Personal Usage Corp.','HomeResearch' or something like that.
 - After the registration e-mail we will have an access to GCloud.
 
+
+
+
+
 ## Setup Google Cloud SDK
 It's much easier to use GCloud with a CLI (command line interface) than with a browser. I highly recommend to use the SDK.
+
 
 On linux (Ubuntu 16.04LTS):
 [Quick Start Guide by Google](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
