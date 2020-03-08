@@ -1,3 +1,6 @@
+# Depreciation Alert
+This tutorial is no longer maintained - please use it accordingly.
+
 # Google Cloud for Deep Learning
 This small tutorial is a little help for students, who are participating in "DEEP LEARNING A GYAKORLATBAN PYTHON ÉS LUA ALAPON" at Budapest University of Technology and Economics.
 
